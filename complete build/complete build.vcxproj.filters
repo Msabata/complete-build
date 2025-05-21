@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="algoritms">
+      <UniqueIdentifier>{602be89e-ad90-4171-8851-2a5abecf41ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algoritms heads">
+      <UniqueIdentifier>{25cbd147-1e1a-4706-abe2-f86e34fcd7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{5fc90007-514d-4084-8828-e6962372c020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{817a0204-bbe8-45cb-94bd-b78547b3e5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernels">
+      <UniqueIdentifier>{96562b09-d325-4c09-94de-adde0f1d790d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resoluts">
+      <UniqueIdentifier>{0c22160c-628f-49c4-92d4-20b97b5da5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="elevation">
+      <UniqueIdentifier>{ce59690b-41cc-4101-a4f0-a8cc9ae90ec9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="complete build.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallelProcessorFlags.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapProcessor.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindingUtils.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoRefScanner.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoProcessor.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordConverter.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationFetcherPy.cpp">
+      <Filter>elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="WaypointExtractor.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSaver.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarToblerSampled.cpp">
+      <Filter>algoritms</Filter>
+    </ClCompile>
+    <ClCompile Include="BFSToblerSampled.cpp">
+      <Filter>algoritms</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstraToblerSampled.cpp">
+      <Filter>algoritms</Filter>
+    </ClCompile>
+    <ClCompile Include="LazyThetaStarToblerSampled.cpp">
+      <Filter>algoritms</Filter>
+    </ClCompile>
+    <ClCompile Include="ThetaStarToblerSampled.cpp">
+      <Filter>algoritms</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtils.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="HADS_GPU.cpp">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarGPU.cpp">
+      <Filter>kernels</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MapProcessingCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallelProcessorFlags.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapProcessor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindingUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoRefScanner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoProcessor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordConverter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fetcher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ElevationFetchingCommon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ElevationFetcherPy.hpp">
+      <Filter>elevation</Filter>
+    </ClInclude>
+    <ClInclude Include="WaypointExtractor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathSaver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarToblerSampled.hpp">
+      <Filter>algoritms heads</Filter>
+    </ClInclude>
+    <ClInclude Include="BFSToblerSampled.hpp">
+      <Filter>algoritms heads</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraToblerSampled.hpp">
+      <Filter>algoritms heads</Filter>
+    </ClInclude>
+    <ClInclude Include="LazyThetaStarToblerSampled.hpp">
+      <Filter>algoritms heads</Filter>
+    </ClInclude>
+    <ClInclude Include="ThetaStarToblerSampled.hpp">
+      <Filter>algoritms heads</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtils.hpp">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="httplib.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaSteppingGPU.hpp">
+      <Filter>algoritms heads</Filter>
+    </ClInclude>
+    <ClInclude Include="HADS_GPU.hpp">
+      <Filter>algoritms heads</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarGPU.hpp">
+      <Filter>algoritms heads</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="elevation_logic.py">
+      <Filter>elevation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="DeltaSteppingKernels.cu">
+      <Filter>kernels</Filter>
+    </CudaCompile>
+    <CudaCompile Include="PathfindingUtilsGPU.cuh">
+      <Filter>kernels</Filter>
+    </CudaCompile>
+    <CudaCompile Include="DeltaSteppingGPU.cpp">
+      <Filter>kernels</Filter>
+    </CudaCompile>
+    <CudaCompile Include="HADSKernels.cu">
+      <Filter>kernels</Filter>
+    </CudaCompile>
+    <CudaCompile Include="AStarKernels.cu">
+      <Filter>kernels</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
